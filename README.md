@@ -143,7 +143,7 @@ class LoginController: UIViewController {
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
 
     ```ruby
-    pod 'This'
+    pod 'Sugar'
 
 
 ## Deployment
