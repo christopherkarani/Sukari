@@ -144,11 +144,9 @@ class LoginController: UIViewController {
 ### Installing
 
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
-
     ```ruby
     pod 'Sukari'
-
-
+    ```
 ## Deployment
 
 just `clone` the repo and run on Xcode
