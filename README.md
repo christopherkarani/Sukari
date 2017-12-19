@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# Sukari
-=======
+
+
 <p align="center">
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-Swift4-orange.svg"></a>
 <a href="https://developer.apple.com/ios"><img src="https://img.shields.io/badge/platform-iOS11-blue.svg?style=flat"></a>
@@ -111,6 +110,9 @@ struct Person {
     print(chris.email) // chrisbkarani@gmail.com
 
 ```
+#### Descriptive Debug Messages
+
+![screen shot 2017-12-19 at 17 35 03](https://user-images.githubusercontent.com/13857475/34170154-dbe22530-e4fa-11e7-89e8-a486eb68648b.png)
 
 ## Another Real-World Example
 #### Without Using Unwrap
@@ -145,26 +147,24 @@ class LoginController: UIViewController {
 ### Installing
 
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
-
     ```ruby
     pod 'Sukari'
-
-
-## Deployment
+    ```
+### Deployment
 
 just `clone` the repo and run on Xcode
 
 
-## Contributing
+### Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/Sugar/blob/master/Contribution.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
-## Authors
+### Authors
 
-* **Chris Karani** - 
+#### Chris Karani
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chrisbkarani/Sugar/blob/master/LICENSE) file for details
->>>>>>> 33317d65fb7902e5aca9c0e668ab98de5ea73094
+
