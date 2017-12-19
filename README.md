@@ -150,21 +150,21 @@ class LoginController: UIViewController {
     ```ruby
     pod 'Sukari'
     ```
-## Deployment
+### Deployment
 
 just `clone` the repo and run on Xcode
 
 
-## Contributing
+### Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/Sugar/blob/master/Contribution.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
-## Authors
+### Authors
 
 #### Chris Karani
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chrisbkarani/Sugar/blob/master/LICENSE) file for details
 
