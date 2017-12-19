@@ -4,14 +4,14 @@
 <a href="https://https://github.com/lyimin/beautifulApp/blob/develop/LICENSE"><img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat"></a>
 </p>
 
-# Sugar
+# Sukari
 🍯 Powerful, Elegant Syntactical Sugar for Swift 🍯
 
 # Description
 
 Enjoy Beutiful Syntactic Enhancements that will save you **Hundreds Or Thousands** of lines of Code
 
-## Simply add Sugar to your initializers
+## Simply add Sukari to your initializers
 
 -   `this()` is an extension on all NSObject subclasses
 
@@ -141,7 +141,7 @@ class LoginController: UIViewController {
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
 
     ```ruby
-    pod 'Sugar'
+    pod 'Sukari'
 
 
 ## Deployment
