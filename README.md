@@ -153,7 +153,7 @@ just `clone` the repo and run on Xcode
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/This/blob/master/Contribution.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/Sugar/blob/master/Contribution.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
@@ -162,4 +162,4 @@ Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/This/blob/master/C
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chrisbkarani/This/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chrisbkarani/Sugar/blob/master/LICENSE) file for details
