@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Sukari"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "Elegant Syntactic Sugar For Swift"
   s.description  = <<-DESC
 Sukari 🍯 is a thin light weight framweork  that provides you with Elegant Syntactic Sugar For Swift which will:
