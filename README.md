@@ -50,7 +50,7 @@ let tableView = UITableView().this {
 #### Use your own Types With a simple Extension
 
 ```swift
-extension CustomType: This {}
+extension CustomType: Sukari {}
 
 let instance = CustomType().this {
       $0.color = .blue
