@@ -76,7 +76,7 @@ class LoginViewController : UIViewController {
 
 ```
 
-### Unwrap
+## Unwrap
 
 Unwrap lets you easily require `Optional` values to be non-`nil`, or crash with ease.
 
@@ -88,7 +88,7 @@ This Has Two Problems.
 Unwrap Solves these problems by providing Syntactical Sugar to your code.
 Quickly and easy unwrap your optionals with `.unwrap` and provide debug information such as which line and file the crash happened with `.unwrap(debug:)`
 
-## Usage
+### Usage
 
 Call `unwrap()` on any `Optional`, optionally giving a `debugMessage` for debugging purposes:
 
