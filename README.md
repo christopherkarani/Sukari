@@ -1,5 +1,4 @@
 
-# Sukari
 
 <p align="center">
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-Swift4-orange.svg"></a>
