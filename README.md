@@ -49,16 +49,14 @@ let tableView = UITableView().this {
 
 #### Use your own Types With a simple Extension
 
-    ```swift
+```swift
     extension CustomType: This {}
     
     let instance = CustomType().this {
       $0.color = .blue
       $0.label.text = "Custom Type"
     }
-    ```
-
-
+```
 ### A Real World Example
 ```swift
 class LoginViewController : UIViewController {
