@@ -47,7 +47,7 @@ let tableView = UITableView().this {
 
 ### Easy Customization
 
-- Use your own Types With a simple Extension
+#### Use your own Types With a simple Extension
 
     ```swift
     extension CustomType: This {}
