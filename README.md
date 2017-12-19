@@ -167,4 +167,4 @@ Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/Sugar/blob/master/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chrisbkarani/Sugar/blob/master/LICENSE) file for details
->>>>>>> 33317d65fb7902e5aca9c0e668ab98de5ea73094
+
