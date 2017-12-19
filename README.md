@@ -5,7 +5,7 @@
 </p>
 
 # Sugar
-🌋 Powerful, Elegant Syntactical Sugar for Swift 🌋
+🍯 Powerful, Elegant Syntactical Sugar for Swift 🍯
 
 # Description
 
@@ -103,6 +103,36 @@ let dictionary = ["ame": "Chris", "email": "chrisbkarani@gmail.com"]
 let chris = Person(dictionary: dictionary)
 print(chris.name) //Chris
 print(chris.email) // chrisbkarani@gmail.com
+}
+```
+
+## Another Real-World Example
+- Without Using Unwrap
+```swift
+class LoginController: UIViewController {
+    var token: Token?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // more code is more bugs
+        guard let unwrappedToken = token else {
+            // if this crashes we enter a 'nil' state in our app with no debug information
+            return
+        }
+        LoginService.login(unwrappedToken)
+    }
+    
+}
+```
+With Unwrap
+
+```swift
+class LoginController: UIViewController {
+    var token: Token?
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        LoginService.login(token.unwrap())
+    }
 }
 ```
 
