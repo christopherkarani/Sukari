@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Sukari
 =======
 <p align="center">
