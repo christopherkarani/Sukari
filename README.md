@@ -101,15 +101,15 @@ struct Person {
         email = dictionary["email"].unwrap(debug: "Unable to find json Element Email") as! String
     }
 }
-let dictionary = ["ame": "Chris", "email": "chrisbkarani@gmail.com"]
-let chris = Person(dictionary: dictionary)
-print(chris.name) //Chris
-print(chris.email) // chrisbkarani@gmail.com
-}
+    let dictionary = ["ame": "Chris", "email": "chrisbkarani@gmail.com"]
+    let chris = Person(dictionary: dictionary)
+    print(chris.name) //Chris
+    print(chris.email) // chrisbkarani@gmail.com
+
 ```
 
 ## Another Real-World Example
-- Without Using Unwrap
+#### Without Using Unwrap
 ```swift
 class LoginController: UIViewController {
     var token: Token?
@@ -126,7 +126,7 @@ class LoginController: UIViewController {
     
 }
 ```
-With Unwrap
+#### With Unwrap
 
 ```swift
 class LoginController: UIViewController {
