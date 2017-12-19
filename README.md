@@ -159,7 +159,7 @@ Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/Sugar/blob/master/
 
 ## Authors
 
-* **Chris Karani** - 
+#### Chris Karani
 
 ## License
 
