@@ -76,6 +76,8 @@ class LoginViewController : UIViewController {
 
 ```
 
+### Unwrap
+
 Unwrap lets you easily require `Optional` values to be non-`nil`, or crash with ease.
 
 Often Times you have to handle many optionals in your code Using `Guard` or `If let` in order to unwrap optional values in your code.
