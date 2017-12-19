@@ -43,14 +43,14 @@ public extension Sukari where Self: NSObject {
 }
 
 // extend to any type
-public extension NSObject: Sukari {}
-public extension CGPoint: Sukari {}
-public extension CGRect: Sukari {}
-public extension CGSize: Sukari {}
-public extension CGVector: Sukari {}
+extension NSObject: Sukari {}
+extension CGPoint: Sukari {}
+extension CGRect: Sukari {}
+extension CGSize: Sukari {}
+extension CGVector: Sukari {}
 
 #if os(iOS) || os(tvOS)
-    public extension UIEdgeInsets: Sukari {}
-    public extension UIOffset: Sukari {}
-    public extension UIRectEdge: Sukari {}
+    extension UIEdgeInsets: Sukari {}
+    extension UIOffset: Sukari {}
+    extension UIRectEdge: Sukari {}
 #endif
