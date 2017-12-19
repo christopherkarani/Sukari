@@ -110,6 +110,9 @@ struct Person {
     print(chris.email) // chrisbkarani@gmail.com
 
 ```
+#### Descriptive Debug Messages
+
+![screen shot 2017-12-19 at 17 35 03](https://user-images.githubusercontent.com/13857475/34170154-dbe22530-e4fa-11e7-89e8-a486eb68648b.png)
 
 ## Another Real-World Example
 #### Without Using Unwrap
