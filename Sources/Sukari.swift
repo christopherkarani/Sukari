@@ -16,12 +16,12 @@ import CoreGraphics
 
 // Sukari 🍯
 // Beatuful syntactic enhancement
-protocol Sukari {
+public protocol Sukari {
     typealias Portal = (Self) throws  -> Void
     typealias ValuePortal = (inout Self) throws  -> Void
 }
 
-extension Sukari where Self: Any {
+public extension Sukari where Self: Any {
 
     func set(_ object: ValuePortal) rethrows -> Self {
         var copy = self
@@ -34,7 +34,7 @@ extension Sukari where Self: Any {
     }
 }
 
-extension Sukari where Self: NSObject {
+public extension Sukari where Self: NSObject {
     func this(_ object: Portal) rethrows -> Self {
         try object(self)
         return self
@@ -43,14 +43,14 @@ extension Sukari where Self: NSObject {
 }
 
 // extend to any type
-extension NSObject: Sukari {}
-extension CGPoint: Sukari {}
-extension CGRect: Sukari {}
-extension CGSize: Sukari {}
-extension CGVector: Sukari {}
+public extension NSObject: Sukari {}
+public extension CGPoint: Sukari {}
+public extension CGRect: Sukari {}
+public extension CGSize: Sukari {}
+public extension CGVector: Sukari {}
 
 #if os(iOS) || os(tvOS)
-    extension UIEdgeInsets: Sukari {}
-    extension UIOffset: Sukari {}
-    extension UIRectEdge: Sukari {}
+    public extension UIEdgeInsets: Sukari {}
+    public extension UIOffset: Sukari {}
+    public extension UIRectEdge: Sukari {}
 #endif
