@@ -1,5 +1,5 @@
 //
-//  SugarTests.swift
+//  SukariTests.swift
 //  Neptune
 //
 //  Created by Chris Karani on 19/12/2017.
@@ -8,9 +8,9 @@
 
 import Foundation
 import XCTest
-import Sugar
+import Sukari
 import UIKit
-class SugarTests: XCTestCase {
+class SukariTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

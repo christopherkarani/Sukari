@@ -1,5 +1,5 @@
 //
-//  Sugar.swift
+//  Sukari.swift
 //  Sugar
 //
 //  Created by Christopher Brandon Karani on 17/12/2017.
@@ -14,14 +14,14 @@ import CoreGraphics
     import UIKit.UIGeometry
 #endif
 
-// Sugar 🍯
+// Sukari 🍯
 // Beatuful syntactic enhancement
-protocol Sugar {
+protocol Sukari {
     typealias Portal = (Self) throws  -> Void
     typealias ValuePortal = (inout Self) throws  -> Void
 }
 
-extension Sugar where Self: Any {
+extension Sukari where Self: Any {
 
     func set(_ object: ValuePortal) rethrows -> Self {
         var copy = self
@@ -34,7 +34,7 @@ extension Sugar where Self: Any {
     }
 }
 
-extension Sugar where Self: NSObject {
+extension Sukari where Self: NSObject {
     func this(_ object: Portal) rethrows -> Self {
         try object(self)
         return self
@@ -43,14 +43,14 @@ extension Sugar where Self: NSObject {
 }
 
 // extend to any type
-extension NSObject: Sugar {}
-extension CGPoint: Sugar {}
-extension CGRect: Sugar {}
-extension CGSize: Sugar {}
-extension CGVector: Sugar {}
+extension NSObject: Sukari {}
+extension CGPoint: Sukari {}
+extension CGRect: Sukari {}
+extension CGSize: Sukari {}
+extension CGVector: Sukari {}
 
 #if os(iOS) || os(tvOS)
-    extension UIEdgeInsets: Sugar {}
-    extension UIOffset: Sugar {}
-    extension UIRectEdge: Sugar {}
+    extension UIEdgeInsets: Sukari {}
+    extension UIOffset: Sukari {}
+    extension UIRectEdge: Sukari {}
 #endif
