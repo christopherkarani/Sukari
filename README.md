@@ -48,6 +48,9 @@ let tableView = UITableView().this {
 }
 ```
 
+#### Easily copy value Types
+
+
 ### Easy Customization
 
 #### Use your own Types With a simple Extension
