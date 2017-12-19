@@ -71,9 +71,17 @@ class LoginViewController : UIViewController {
         $0.layer.masksToBounds = true
         $0.layer.cornerRadius = 5
     }
+    
+     let emailTextField = UITextField().this {
+        $0.placeholder = "Email"
+        $0.borderStyle = .roundedRect
+        $0.font = UIFont.systemFont(ofSize: 14)
+        $0.backgroundColor = UIColor(white: 0, alpha: 0.03)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(loginButton)
+        view.addSubview(emailTextField)
     }
 }
 
