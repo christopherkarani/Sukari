@@ -21,19 +21,8 @@ Enjoy Beutiful Syntactic Enhancements that will save you **Hundreds Or Thousands
     }
     ```
     
-    Clean up your initialization Code
+#### Clean up your initialization Code
     
-```swift
-let tableView = UITableView().this {
-    $0.backgroundColor = .white
-    $0.register(UserCell.self, forCellReuseIdentifier: "CellID")
-    $0.separatorStyle = .none
-    $0.allowsSelection = false
-}
-```
-
-Initialize in **this** way.
-
 ```swift
   let tableView : UITableView = {
       let table = UITableView()
@@ -43,6 +32,17 @@ Initialize in **this** way.
       table.allowsSelection = false
       return table
   }()
+```
+
+#### Initialize in **this** way.
+
+```swift
+let tableView = UITableView().this {
+    $0.backgroundColor = .white
+    $0.register(UserCell.self, forCellReuseIdentifier: "CellID")
+    $0.separatorStyle = .none
+    $0.allowsSelection = false
+}
 ```
 
 ### Easy Customization
