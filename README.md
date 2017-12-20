@@ -155,7 +155,8 @@ class LoginController: UIViewController {
 ![screen shot 2017-12-20 at 12 57 13](https://user-images.githubusercontent.com/13857475/34201397-651f73ae-e585-11e7-8d61-f354a1be4e9b.png)
 
 #### Clean, Succinct, and with more descriptive crashes!
-![sscode1](https://user-images.githubusercontent.com/13857475/34201597-0a8ba290-e586-11e7-80dd-4d92f09001f7.png)
+![screen shot 2017-12-20 at 13 03 52](https://user-images.githubusercontent.com/13857475/34201662-4ef9c1aa-e586-11e7-8b1c-fd09908da352.png)
+
 ### Installing
 
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
