@@ -6,6 +6,7 @@
 <a href="https://https://github.com/lyimin/beautifulApp/blob/develop/LICENSE"><img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat"></a>
     <a href="https://twitter.com/xcodedotswift">
   <img src="https://img.shields.io/badge/contact-@cbkarani-blue.svg?style=flat" alt="Twitter: @cbkarani" />
+        [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)]();
 </a>
 </p>
 
