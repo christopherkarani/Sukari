@@ -12,8 +12,6 @@
 # Sukari
 🍯 Powerful, Elegant Syntactical Sugar for Swift 🍯
 
-## Path
-Sukari is still under development. We are still defining many things around how Sukari works and how the API works. These decissions might result into breaking changes in the Sake APIs. Once the api's are stable we'll use [semantic versioning](https://semver.org/) ensuring that only major versions include breaking changes.
 
 # Description
 
@@ -54,7 +52,16 @@ let tableView = UITableView().this {
     $0.allowsSelection = false
 }
 ```
+#### Easily Create and Set Value Types 🛠
 
+```swift
+extension CustomType: Sukari {}
+
+let instance = CGPoint().set {
+      $0.x = 100
+      $0.y = 200
+ }
+```
 
 
 ### Add Sugar to your own Types with a little Extension 🔌
