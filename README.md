@@ -23,11 +23,11 @@ Enjoy Beutiful Syntactic Enhancements that will save you **Hundreds Or Thousands
 
 #### Use `.this{}` to Initialize Swiftly! 🌈
 
-    ```swift
-    let fileManager = FileManager().this {
-       $0.urls(for: .applicationDirectory, in: .userDomainMask)
-    }
-    ```
+```swift
+let fileManager = FileManager().this {
+   $0.urls(for: .applicationDirectory, in: .userDomainMask)
+}
+```
     
 #### Clean up your initialization Code! ✨
     
