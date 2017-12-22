@@ -21,6 +21,8 @@ Enjoy Beutiful Syntactic Enhancements that will save you **Hundreds Or Thousands
 
 ## Simply add Sukari to your initializers
 
+#### Use `.this{}` to Initialize Swiftly! 🌈
+
 -   `this()` is an extension on all NSObject subclasses
 
     ```swift
@@ -29,7 +31,7 @@ Enjoy Beutiful Syntactic Enhancements that will save you **Hundreds Or Thousands
     }
     ```
     
-#### Clean up your initialization Code
+#### Clean up your initialization Code! ✨
     
 ```swift
   let tableView : UITableView = {
@@ -42,7 +44,7 @@ Enjoy Beutiful Syntactic Enhancements that will save you **Hundreds Or Thousands
   }()
 ```
 
-#### Initialize in **this** way.
+#### Initialize in **this** way. and and stop repeating yourself! 🚦
 
 ```swift
 let tableView = UITableView().this {
@@ -53,12 +55,9 @@ let tableView = UITableView().this {
 }
 ```
 
-#### Easily copy value Types
 
 
-### Easy Customization
-
-#### Use your own Types With a simple Extension
+### Add Sugar to your own Types with a little Extension 🔌
 
 ```swift
 extension CustomType: Sukari {}
@@ -68,7 +67,7 @@ let instance = CustomType().this {
       $0.label.text = "Custom Type"
  }
 ```
-### A Real World Example
+### Make your code base a little Sweeter 🍭
 ```swift
 class LoginViewController : UIViewController {
     var loginButton = UIButton().this {
