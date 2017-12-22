@@ -55,9 +55,7 @@ let tableView = UITableView().this {
 #### Easily Create and Set Value Types 🛠
 
 ```swift
-extension CustomType: Sukari {}
-
-let instance = CGPoint().set {
+let point = CGPoint().set {
       $0.x = 100
       $0.y = 200
  }
