@@ -4,10 +4,16 @@
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-Swift4-orange.svg"></a>
 <a href="https://developer.apple.com/ios"><img src="https://img.shields.io/badge/platform-iOS11-blue.svg?style=flat"></a>
 <a href="https://https://github.com/lyimin/beautifulApp/blob/develop/LICENSE"><img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat"></a>
+    <a href="https://twitter.com/xcodedotswift">
+  <img src="https://img.shields.io/badge/contact-@xcodedotswift-blue.svg?style=flat" alt="Twitter: @cbkarani" />
+</a>
 </p>
 
 # Sukari
 🍯 Powerful, Elegant Syntactical Sugar for Swift 🍯
+
+## Path
+Sukari is still under development. We are still defining many things around how Sukari works and how the API works. These decissions might result into breaking changes in the Sake APIs. Once the api's are stable we'll use [semantic versioning](https://semver.org/) ensuring that only major versions include breaking changes.
 
 # Description
 
