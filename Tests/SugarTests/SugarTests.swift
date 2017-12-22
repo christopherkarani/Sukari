@@ -8,18 +8,24 @@
 
 import Foundation
 import XCTest
-import Sukari
+@testable import Sukari
 import UIKit
+
+struct Message {
+    var message: String
+    var sendID : Int
+}
+
 class SukariTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        //// XCTAssertEqual(Sugar().text, "Hello, World!")
-        
-   
+    
+    func testThisExt() {
+        let message = Message(message: "Hello Chris", sendID: 23)
+        XCTAssertEqual(message.message, "Hello Chris", sendID, 23)
     }
     
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+}
+
+static var allTests = [
+    ("testThisExt", testThisExt),
+]
 }

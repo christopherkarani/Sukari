@@ -8,7 +8,7 @@ Sukari 🍯 is a thin light weight framweork  that provides you with Elegant Syn
 2.Easily Intialize objects 🛠
 3.Throw away Guard Statements with Unwrap 🎫
   DESC
-  s.homepage     = " https://github.com/chrisbkarani/Sukari"
+  s.homepage     = "https://github.com/xrisyz/Sukari"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Chris Karani" => "chrisbkarani@gmail.com" }
   s.social_media_url   = "https://twitter.com/cbkarani"
@@ -16,7 +16,7 @@ Sukari 🍯 is a thin light weight framweork  that provides you with Elegant Syn
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/chrisbkarani/Sukari.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/xrisyz/Sukari.git", :tag => s.version }
   s.source_files  = "Sources/*.swift"
   s.frameworks  = "Foundation", "CoreGraphics"
 end

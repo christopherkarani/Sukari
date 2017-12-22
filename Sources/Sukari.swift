@@ -22,7 +22,17 @@ public protocol Sukari {
 }
 
 public extension Sukari where Self: Any {
-
+    
+    /**
+     *  set(_:) lets you Swiftly 'set' values to your objects.
+     *
+     *  This method will return 'Self' which woulf be the conforming object
+     *
+     *  - parameter object: A copy closure, returns a copy of the value object with set properties
+     *
+     *
+     *  - return: Self
+     */
     func set(_ object: ValuePortal) rethrows -> Self {
         var copy = self
         try object(&copy)
@@ -35,6 +45,16 @@ public extension Sukari where Self: Any {
 }
 
 public extension Sukari where Self: NSObject {
+    /**
+     *  this(_:) lets you quickly and Swift Initliazie your objects.
+     *
+     *  This method will return 'Self' which woulf be the conforming object
+     *
+     *  - parameter object: A closure that allows for quick Initialization of `Self` without repition
+     *
+     *
+     *  - return: Self
+     */
     func this(_ object: Portal) rethrows -> Self {
         try object(self)
         return self
