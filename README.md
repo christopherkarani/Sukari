@@ -107,9 +107,16 @@ On top of that, unwrap also provides a sytactic enhancement to easily `unwrap` o
 
 
 1. No More `if` `let` pyramids and `Guard` `let` Towers. only a clean and simple extension to your optionals `unwrap`
-2. Recieve Rich Debug Information with `unwrap(debug:)`
+2. Recieve Rich Debug Information with `unwrap(debug:)` ![screen shot 2017-12-19 at 17 35 03](https://user-images.githubusercontent.com/13857475/34170154-dbe22530-e4fa-11e7-89e8-a486eb68648b.png)
 
-Adopt this simple but effective enhancment to your code base Now!
+#### Adopt this simple but effective enhancment to your code base Now!
+
+
+#### `Guard` `let` tower spotted. 
+![screen shot 2017-12-20 at 12 57 13](https://user-images.githubusercontent.com/13857475/34201397-651f73ae-e585-11e7-8d61-f354a1be4e9b.png)
+
+#### Clean, Succinct, and with more descriptive crashes!
+![screen shot 2017-12-20 at 13 03 52](https://user-images.githubusercontent.com/13857475/34201662-4ef9c1aa-e586-11e7-8b1c-fd09908da352.png)
 
 ### Usage
 
@@ -130,9 +137,6 @@ struct Person {
     print(chris.email) // chrisbkarani@gmail.com
 
 ```
-#### Descriptive Debug Messages
-
-![screen shot 2017-12-19 at 17 35 03](https://user-images.githubusercontent.com/13857475/34170154-dbe22530-e4fa-11e7-89e8-a486eb68648b.png)
 
 ## Another Real-World Example
 #### Without Using Unwrap
@@ -163,11 +167,9 @@ class LoginController: UIViewController {
     }
 }
 ```
-#### Start Shreadding lines of code 
-![screen shot 2017-12-20 at 12 57 13](https://user-images.githubusercontent.com/13857475/34201397-651f73ae-e585-11e7-8d61-f354a1be4e9b.png)
 
-#### Clean, Succinct, and with more descriptive crashes!
-![screen shot 2017-12-20 at 13 03 52](https://user-images.githubusercontent.com/13857475/34201662-4ef9c1aa-e586-11e7-8b1c-fd09908da352.png)
+
+
 
 ### Installing
 
@@ -175,9 +177,7 @@ class LoginController: UIViewController {
     ```ruby
     pod 'Sukari'
     ```
-### Deployment
 
-just `clone` the repo and run on Xcode
 
 
 ### Contributing
@@ -187,7 +187,7 @@ Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/Sugar/blob/master/
 
 ### Authors
 
-#### Chris Karani
+#### The one and only. Chris Karani
 
 ### License
 
