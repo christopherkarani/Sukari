@@ -15,7 +15,7 @@
 
 # Description
 
-Enjoy Beutiful Syntactic Enhancements that will save you **Hundreds Or Thousands** of lines of Code
+Enjoy Beutiful Syntactic Enhancements to your swift code base
 
 ## Simply add Sukari to your initializers
 
@@ -99,15 +99,17 @@ class LoginViewController : UIViewController {
 
 ## Unwrap
 
-Unwrap lets you easily require `Optional` values to be non-`nil`, or crash with ease.
+Unwrap lets you easily require `Optional` values.
 
-Often Times you have to handle many optionals in your code Using `Guard` or `If let` in order to unwrap optional values in your code.
-This Has Two Problems.
-1. It Causes Code Congestion, making your code harder to read and maintain
-2. After Unwrapping with `Guard` or `If let` you recieve absolutely No debuging information.
+Use unwrap() on any optional that you expect to always be non-nil, or else crash your App with a more (optional) descriptive debug message with `.unwrap(debug:)`
 
-Unwrap Solves these problems by providing Syntactical Sugar to your code.
-Quickly and easy unwrap your optionals with `.unwrap` and provide debug information such as which line and file the crash happened with `.unwrap(debug:)`
+On top of that, unwrap also provides a sytactic enhancement to easily `unwrap` optionals through an under-the-hood `Guard` Statement.
+
+
+1. No More `if` `let` pyramids and `Guard` `let` Towers. only a clean and simple extension to your optionals `unwrap`
+2. Recieve Rich Debug Information with `unwrap(debug:)`
+
+Adopt this simple but effective enhancment to your code base Now!
 
 ### Usage
 
