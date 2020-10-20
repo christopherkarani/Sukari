@@ -187,7 +187,7 @@ Please read [CONTRIBUTING.md](https://github.com/chrisbkarani/Sugar/blob/master/
 
 ### Authors
 
-#### The one and only. Chris Karani
+#### Chris Karani
 
 ### License
 
